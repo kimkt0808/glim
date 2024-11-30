@@ -6,3 +6,8 @@ spring:
     console:
       enabled: true
       path: /h2-console
+  web:
+    resources:
+      cache:
+        cachecontrol:
+          no-cache: true
